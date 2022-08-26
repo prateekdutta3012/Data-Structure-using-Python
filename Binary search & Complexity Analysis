@@ -58,3 +58,4 @@ Here is the general strategy behind binary search, which is applicable to a vari
 4. If answer lies before it, repeat the search with the first half of the list
 5. If the answer lies after it, repeat the search with the second half of the list.
 
+**Note that binary_search accepts a function condition as an argument. Python allows passing functions as arguments to other functions, unlike C++ and Java.**
