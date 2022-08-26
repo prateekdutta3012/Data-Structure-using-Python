@@ -1,0 +1,10 @@
+
+Analyze the algorithm's complexity and identify inefficiencies
+The operations insert, find, update involves iterating over a list of users, in the worst case, they may take up to N iterations to return a result, where N is the total number of users. list_all however, simply returns the existing internal list of users.
+
+Thus, the time complexities of the various operations are:
+
+1. Insert: O(N)
+2. Find: O(N)
+3. Update: O(N)
+4. List: O(1)
