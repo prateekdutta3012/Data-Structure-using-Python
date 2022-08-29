@@ -42,5 +42,7 @@ a balance factor. In the AVL tree, the values of balance factor could be either 
 
 # Time Complexity in Binary Search Tree
 
-If the binary search tree is almost a balanced tree then all the operations will have a time complexity of O(logn) because the search is divided either to the left or the right subtree.
+If the binary search tree is almost a balanced tree then all the operations will have a time complexity of O(logn) because the search is divided either to the left or 
+the right subtree.
 If the binary search tree is either left or right-skewed, then all the operations will have the time complexity of O(n) because we need to traverse till the n elements.
+
