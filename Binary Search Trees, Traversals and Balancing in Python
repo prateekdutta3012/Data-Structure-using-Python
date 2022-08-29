@@ -19,3 +19,14 @@ The single node at the top is called the "root" node, and it typically where ope
 #Treemap
 A treemap provides a stratified view of data and makes it easy to blot the patterns. The tree branches are characterized by rectangles and each of the sub_branches is 
 shown in a smaller rectangle.
+Parameters:
+
+data_frame: This argument needs to be passed for column names (and not keyword names) to be used. Array-like and dict are transformed internally to a pandas DataFrame. 
+
+names: Either a name of a column in data_frame, or a pandas Series or array_like object. Values from this column or array_like are used as labels for sectors.
+
+values: Either a name of a column in data_frame, or a pandas Series or array_like object. Values from this column or array_like are used to set values associated to sectors.
+
+path: Either names of columns in data_frame, or pandas Series, or array_like objects List of columns names or columns of a rectangular dataframe defining the hierarchy of sectors, from root to leaves. 
+
+color: Either a name of a column in data_frame, or a pandas Series or array_like object. Values from this column or array_like are used to assign color to marks.
