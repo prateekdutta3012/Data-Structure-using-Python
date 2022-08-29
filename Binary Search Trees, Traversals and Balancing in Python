@@ -1,6 +1,7 @@
 
 Analyze the algorithm's complexity and identify inefficiencies
-The operations insert, find, update involves iterating over a list of users, in the worst case, they may take up to N iterations to return a result, where N is the total 
+The operations insert, find, update involves iterating over a list of users, in the worst case, they may take up to N iterations to return a result, where N is the 
+total 
 number of users. list_all however, simply returns the existing internal list of users.
 
 Thus, the time complexities of the various operations are:
@@ -22,13 +23,15 @@ shown in a smaller rectangle.
 
 Parameters:
 
-1. data_frame: This argument needs to be passed for column names (and not keyword names) to be used. Array-like and dict are transformed internally to a pandas DataFrame.
+1. data_frame: This argument needs to be passed for column names (and not keyword names) to be used. Array-like and dict are transformed internally to a pandas 
+DataFrame.
 
 2. names: Either a name of a column in data_frame, or a pandas Series or array_like object. Values from this column or array_like are used as labels for sectors.
 
 3. values: Either a name of a column in data_frame, or a pandas Series or array_like object. Values from this column or array_like are used to set values associated to 
 sectors.
 
-4. path: Either names of columns in data_frame, or pandas Series, or array_like objects List of columns names or columns of a rectangular dataframe defining the hierarchy of sectors, from root to leaves. 
+4. path: Either names of columns in data_frame, or pandas Series, or array_like objects List of columns names or columns of a rectangular dataframe defining the 
+hierarchy of sectors, from root to leaves. 
 
 5. color: Either a name of a column in data_frame, or a pandas Series or array_like object. Values from this column or array_like are used to assign color to marks.
