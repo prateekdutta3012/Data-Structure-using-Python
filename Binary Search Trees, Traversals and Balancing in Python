@@ -17,4 +17,5 @@ Nodes can have 0, 1 or 2 children. Nodes that do not have any children are somet
 The single node at the top is called the "root" node, and it typically where operations like search, insertion etc. begin.
 
 #Treemap
-A treemap provides a stratified view of data and makes it easy to blot the patterns. The tree branches are characterized by rectangles and each of the sub_branches is shown in a smaller rectangle.
+A treemap provides a stratified view of data and makes it easy to blot the patterns. The tree branches are characterized by rectangles and each of the sub_branches is 
+shown in a smaller rectangle.
