@@ -35,3 +35,12 @@ sectors.
 hierarchy of sectors, from root to leaves. 
 
 5. color: Either a name of a column in data_frame, or a pandas Series or array_like object. Values from this column or array_like are used to assign color to marks.
+
+# Self-Balancing Binary Trees and AVL Trees
+An AVL tree is a self-balancing binary search tree where the difference between heights of left and right subtrees cannot be more than one. This difference is known as
+a balance factor. In the AVL tree, the values of balance factor could be either -1, 0 or 1.
+
+# Time Complexity in Binary Search Tree
+
+If the binary search tree is almost a balanced tree then all the operations will have a time complexity of O(logn) because the search is divided either to the left or the right subtree.
+If the binary search tree is either left or right-skewed, then all the operations will have the time complexity of O(n) because we need to traverse till the n elements.
