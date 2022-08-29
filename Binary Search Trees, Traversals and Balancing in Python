@@ -9,9 +9,11 @@ Thus, the time complexities of the various operations are:
 3. Update: O(N)
 4. List: O(1)
 
-https://i.imgur.com/lVqP63n.png
 It's called a tree because it vaguely like an inverted tree trunk with branches.
 
 The word "binary" indicates that each "node" in the tree can have at most 2 children (left or right).
 Nodes can have 0, 1 or 2 children. Nodes that do not have any children are sometimes also called "leaves".
 The single node at the top is called the "root" node, and it typically where operations like search, insertion etc. begin.
+
+#Treemap
+A treemap provides a stratified view of data and makes it easy to blot the patterns. 
