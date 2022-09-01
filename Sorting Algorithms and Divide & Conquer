@@ -22,3 +22,16 @@ Some lists of numbers in random order.
 -> A list containing just one element.
 -> A list containing one element repeated many times.
 -> A really long list.
+
+Analyze the algorithm's complexity and identify inefficiencies
+The core operations in bubble sort are "compare" and "swap". To analyze the time complexity, we can simply count the total number of comparisons being made, since the 
+total number of swaps will be less than or equal to the total number of comparisons (can you see why?).
+
+for _ in range(len(nums) - 1):
+    for i in range(len(nums) - 1):
+        if nums[i] > nums[i+1]:
+            nums[i], nums[i+1] = nums[i+1], nums[i]
+There are two loops, each of length n-1, where n is the number of elements in nums. So the total number of comparisons is 
+(n−1)∗(n−1) i.e.(n−1)2 i.e.n^2−2n+1
+
+Expressing this in the Big O notation, we can conclude that the time complexity of bubble sort is O(n^2) (also known as quadratic complexity).
