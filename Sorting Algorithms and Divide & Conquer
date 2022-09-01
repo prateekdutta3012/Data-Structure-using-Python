@@ -45,3 +45,13 @@ To performing sorting more efficiently, we'll apply a strategy called Divide and
 Space Complexity
 To find the space complexity of merge sort, it helps to recall that a new list with equal to the sum of the sizes of the two lists is created in each invocation of 
 merge.
+i, j, merged = 0, 0, []
+while i < len(nums1) and j < len(nums2):
+    if nums1[i] <= nums2[j]:
+        merged.append(nums1[i])
+        i += 1
+    else:
+        merged.append(nums2[j])
+        j += 1
+        
+        
