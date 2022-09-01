@@ -14,11 +14,11 @@ algorithm has finished.
 
 Heap operations:
 
-Insertion - 
+-> Insertion - 
 O(logN)
-Min/Max - 
+-> Min/Max - 
 O(1)  (depending on type of heap)
-Deletion - 
+-> Deletion - 
 O(logN)
-Convert a list to a heap - 
+-> Convert a list to a heap - 
 O(n)
