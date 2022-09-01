@@ -54,5 +54,4 @@ while i < len(nums1) and j < len(nums2):
         merged.append(nums2[j])
         j += 1
         
-At first glance, it may seem that 
-O(n) space is required for each level of the tree, so the space complexity of merge sort is O(n log n).        
+At first glance, it may seem that O(n) space is required for each level of the tree, so the space complexity of merge sort is O(n log n).        
