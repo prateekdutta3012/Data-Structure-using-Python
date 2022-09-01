@@ -1,3 +1,18 @@
 A "sequence" is a group of items with a deterministic ordering. Lists, tuples and ranges are some common sequence types in Python.
 
 A "subsequence" is a sequence obtained by deleting zero or more elements from another sequence. For example, "edpt" is a subsequence of "serendipitous".
+
+Recursive Solution
+
+-> Create two counters idx1 and idx2 starting at 0. Our recursive function will compute the LCS of seq1[idx1:] and seq2[idx2:]
+-> If seq1[idx1] and seq2[idx2] are equal, then this character belongs to the LCS of seq1[idx1:] and seq2[idx2:] (why?). Further the length this is LCS is one more than 
+LCS of seq1[idx1+1:] and seq2[idx2+1:]
+-> If not, then the LCS of seq1[idx1:] and seq2[idx2:] is the longer one among the LCS of seq1[idx1+1:], seq2[idx2:] and the LCS of seq1[idx1:], seq2[idx2+1:]
+-> If either seq1[idx1:] or seq2[idx2:] is empty, then their LCS is empty.
+
+Dynamic programming
+
+-> Create a table of size (n1+1) * (n2+1) initialized with 0s, where n1 and n2 are the lengths of the sequences. table[i][j] represents the longest common subsequence of 
+seq1[:i] and seq2[:j].
+-> If seq1[i] and seq2[j] are equal, then table[i+1][j+1] = 1 + table[i][j]
+-> If seq1[i] and seq2[j] are equal, then table[i+1][j+1] = max(table[i][j+1], table[i+1][j])
