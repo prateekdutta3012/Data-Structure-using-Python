@@ -41,3 +41,7 @@ To performing sorting more efficiently, we'll apply a strategy called Divide and
 -> Recursively solve the problem individually for each of the two parts.
 -> Combine the results to solve the problem for the original inputs.
 -> Include terminating conditions for small or indivisible inputs.
+
+Space Complexity
+To find the space complexity of merge sort, it helps to recall that a new list with equal to the sum of the sizes of the two lists is created in each invocation of 
+merge.
