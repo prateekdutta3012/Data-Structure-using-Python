@@ -35,3 +35,9 @@ There are two loops, each of length n-1, where n is the number of elements in nu
 (n−1)∗(n−1) i.e.(n−1)2 i.e.n^2−2n+1
 
 Expressing this in the Big O notation, we can conclude that the time complexity of bubble sort is O(n^2) (also known as quadratic complexity).
+
+To performing sorting more efficiently, we'll apply a strategy called Divide and Conquer, which has the following general steps:
+-> Divide the inputs into two roughly equal parts.
+-> Recursively solve the problem individually for each of the two parts.
+-> Combine the results to solve the problem for the original inputs.
+-> Include terminating conditions for small or indivisible inputs.
