@@ -11,3 +11,14 @@ Here's a systematic strategy we'll apply for solving problems:
 5. Analyze the algorithm's complexity and identify inefficiencies, if any.
 
 6. Apply the right technique to overcome the inefficiency. Repeat steps 3 to 6.
+
+Here are some scenarios we may want to test out:
+Some lists of numbers in random order.
+
+-> A list that's already sorted.
+-> A list that's sorted in descending order.
+-> A list containing repeating elements.
+-> An empty list.
+-> A list containing just one element.
+-> A list containing one element repeated many times.
+-> A really long list.
